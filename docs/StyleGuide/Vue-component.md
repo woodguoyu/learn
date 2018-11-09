@@ -95,35 +95,26 @@ Vue.js 的表达式是 100% 的 Javascript 表达式。这使得其功能性很�
 ```html
 <!-- 推荐 -->
 <template>
-  <h1>
-    {{ year - month }}
-  </h1>
+  <div id="example">
+    <p>Original message: "{{ message }}"</p>
+    <p>Computed reversed message: "{{ reversedMessage }}"</p>
+  </div>
 </template>
 <script type="text/javascript">
   export default {
+    data() {
+        return() {
+            message: 'Hello'
+        }
+    },
     computed: {
-      month() {
-        return this.twoDigits((new Date()).getUTCMonth() + 1);
-      },
-      year() {
-        return (new Date()).getUTCFullYear();
+    reversedMessage: function() {
+        return this.message.split('').reverse().join('')
       }
-    },
-    methods: {
-      twoDigits(num) {
-        return ('0' + num).slice(-2);
-      }
-    },
+    }
   };
 </script>
 
-<!-- 避免 -->
-<template>
-  <h1>
-    {{ (new Date()).getUTCFullYear()}-('0' + ((new Date()).getUTCMonth()+1)).slice(-2) }}
-  </h1>
-</template>
-```
 
 [↑ 回到目录](#目录)
 
