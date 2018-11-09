@@ -5,8 +5,8 @@
 本指南基于 [Airbnb](https://github.com/airbnb/) 编程规范，，一些个人经验和喜好。写作本文旨在加深自己印象，也为了更多人的了解到JS编码风格，提高自己的编码质量
 
 
- * [Airbnb JavaScript 指南](./StyleGuide/JavaScript.md)
- * [Airbnb CSS / Sass 指南](./StyleGuide/CSS.md)
- * [Vue-component 指南](./StyleGuide/Vue-component.md)
+ * [Airbnb JavaScript 指南](/StyleGuide/JavaScript.md)
+ * [Airbnb CSS / Sass 指南](/StyleGuide/CSS.md)
+ * [Vue-component 指南](/StyleGuide/Vue-component.md)
 
 !> 长期维护中
