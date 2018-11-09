@@ -96,7 +96,7 @@ Vue.js 的表达式是 100% 的 Javascript 表达式。这使得其功能性很�
 <!-- 推荐 -->
 <template>
   <h1>
-    {{  }}
+    {{ year - month }}
   </h1>
 </template>
 <script type="text/javascript">
@@ -120,7 +120,7 @@ Vue.js 的表达式是 100% 的 Javascript 表达式。这使得其功能性很�
 <!-- 避免 -->
 <template>
   <h1>
-    {{ `${(new Date()).getUTCFullYear()}-${('0' + ((new Date()).getUTCMonth()+1)).slice(-2)}` }}
+    {{ (new Date()).getUTCFullYear()}-('0' + ((new Date()).getUTCMonth()+1)).slice(-2) }}
   </h1>
 </template>
 ```
