@@ -1,6 +1,6 @@
 # Vue.js 组件编码规范
 <p align="center">
-  <img src="/static/image/logo2.png"/>
+  ![logo](./static/image/vue.png)
 </p>
 
 
