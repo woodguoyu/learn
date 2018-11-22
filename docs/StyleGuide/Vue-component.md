@@ -1,8 +1,6 @@
 # Vue.js 组件编码规范
-<p align="center">
-  ![logo](./static/image/vue.png)
-</p>
 
+  ![logo](./static/image/vue.png)
 
 ## 目标
 
