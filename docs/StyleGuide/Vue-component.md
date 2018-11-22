@@ -1,7 +1,8 @@
 # Vue.js 组件编码规范
 <p align="center">
-  <img src="http://pdjikd1oj.bkt.clouddn.com/vue.png"/>
+  <img src="/static/image/logo2.png"/>
 </p>
+
 
 ## 目标
 
